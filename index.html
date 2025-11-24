@@ -1,0 +1,1214 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1024">
+    <title>Ankur Madan- Startup & AI Enthusiast | Customer Success Expert</title>
+    <meta name="description" content="Startup enthusiast and AI expert specializing in customer success, market research, and business analytics. Passionate about transforming data into strategic insights and driving growth through innovative solutions." />
+    <meta name="keywords" content="startup, AI, customer success, market research, analytics, salesforce, business intelligence, data science, BRD, FRD" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+        
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 1s ease-out;
+        }
+        
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .counter {
+            font-variant-numeric: tabular-nums;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #3b82f6, #10b981, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .floating-element {
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .pulse-glow {
+            animation: pulse-glow 2s ease-in-out infinite alternate;
+        }
+        
+        @keyframes pulse-glow {
+            from { box-shadow: 0 0 20px rgba(59, 130, 246, 0.3); }
+            to { box-shadow: 0 0 40px rgba(59, 130, 246, 0.6); }
+        }
+        
+        .hover-scale {
+            transition: transform 0.3s ease;
+        }
+        
+        .hover-scale:hover {
+            transform: scale(1.05);
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(135deg, #3b82f6, #10b981);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: linear-gradient(135deg, #2563eb, #059669);
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-emerald-50">
+    <!-- Navigation -->
+    <nav id="navbar" class="fixed top-0 w-full z-50 transition-all duration-500">
+        <div class="max-w-7xl mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <div class="w-10 h-10 bg-gradient-to-r from-teal-400 to-blue-800 rounded-xl flex items-center justify-center">
+                        <i data-lucide="rocket" class="w-6 h-6 text-white"></i>
+                    </div>
+                    <span class="text-xl font-bold">
+                        Ankur Madan
+                    </span>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="#skills" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">Skills</a>
+                    <a href="#methodology" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">Approach</a>
+                    <a href="#impact" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">Impact</a>
+                    <a href="#value" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">Why Me???</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="md:hidden mt-4 py-4 bg-white rounded-lg shadow-lg hidden">
+                <a href="#skills" class="block px-4 py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium">Skills</a>
+                <a href="#methodology" class="block px-4 py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium">Approach</a>
+                <a href="#impact" class="block px-4 py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium">Impact</a>
+                <a href="#value" class="block px-4 py-2 text-gray-700 hover:text-blue-600 transition-colors font-medium">Why Me???</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-blue-600/10 via-emerald-600/10 to-purple-600/10"></div>
+        
+        <!-- Floating Elements -->
+        <div class="absolute top-20 left-10 w-20 h-20 bg-blue-400/20 rounded-full blur-xl floating-element"></div>
+        <div class="absolute top-40 right-20 w-32 h-32 bg-emerald-400/20 rounded-full blur-2xl floating-element" style="animation-delay: 1s;"></div>
+        <div class="absolute bottom-20 left-1/4 w-16 h-16 bg-purple-400/20 rounded-full blur-xl floating-element" style="animation-delay: 0.5s;"></div>
+        
+
+ <div class="relative max-w-7xl mx-auto px-6 text-center">
+                          
+                <h1 class="text-5xl md:text-7xl font-bold text-gray-900 mb-8 leading-tight">
+                    Transforming Ideas to
+                    <span class="block gradient-text">
+                        Scalable Success Stories
+                    </span>
+                </h1>
+                
+                <p class="text-xl md:text-2xl text-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed">
+                    Passionate about leveraging AI, analytics, and customer-centric strategies to drive startup growth 
+                    and enterprise transformation through data-driven insights and innovative solutions
+                </p>
+
+                <div class="fade-in" style="animation-delay: 300ms;">
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <button onclick="scrollToSection('skills')" class="group bg-gradient-to-r from-blue-600 to-emerald-600 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 flex items-center pulse-glow">
+                        Explore My Expertise
+                        <i data-lucide="arrow-right" class="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform"></i>
+                    </button>
+                    <button onclick="scrollToSection('skills')" class="text-blue-600 hover:text-emerald-600 font-semibold text-lg flex items-center transition-colors">
+                        Learn More
+                        <i data-lucide="chevron-down" class="ml-2 w-5 h-5"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+<br>
+</br> 
+     <!-- Key Highlights -->
+<div class="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-12">
+  <!-- Button 1 -->
+  <div class="fade-in flex items-center justify-center space-x-2 bg-white/50 backdrop-blur-sm rounded-xl p-4 shadow-lg 
+              transform transition duration-400 ease-in-out hover:scale-105 hover:shadow-xl"
+       style="animation-delay: 500ms;">
+    <i data-lucide="zap" class="w-5 h-5 text-blue-600"></i>
+    <span class="font-semibold text-gray-700">AI-Powered Analytics</span>
+  </div>
+
+  <!-- Button 2 -->
+  <div class="fade-in flex items-center justify-center space-x-5 bg-white/50 backdrop-blur-sm rounded-xl p-4 shadow-lg 
+              transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-xl"
+       style="animation-delay: 700ms;">
+    <i data-lucide="trending-up" class="w-5 h-5 text-emerald-600"></i>
+    <span class="font-semibold text-gray-700">Startup Enthusiast</span>
+  </div>
+
+  <!-- Button 3 -->
+  <div class="fade-in flex items-center justify-center space-x-5 bg-white/50 backdrop-blur-sm rounded-xl p-4 shadow-lg 
+              transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-xl"
+       style="animation-delay: 900ms;">
+    <i data-lucide="lightbulb" class="w-5 h-5 text-purple-600"></i>
+    <span class="font-semibold text-gray-700">Customer Success</span>
+  </div>
+</div>
+
+</section>
+
+<!-- CSS (small scoped block) -->
+<style>
+  /* Buttons entrance animation (you can tweak durations/delays here) */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Buttons container animates in first */
+  .buttons-container {
+    animation: fadeUp 700ms cubic-bezier(.2,.9,.3,1) forwards;
+    animation-delay: 200ms; /* <- change this to control when buttons start */
+    will-change: opacity, transform;
+  }
+
+  /* Highlights start hidden (no layout jump) */
+  .highlights-container {
+    --card-gap: 20px;
+    opacity: 1; /* container remains, cards are hidden individually */
+  }
+
+  .highlight-card {
+    opacity: 0;
+    transform: translateY(10px);
+    will-change: opacity, transform;
+  }
+
+  /* When JS adds .animate-in, each card uses its --delay var */
+  .highlight-card.animate-in {
+    animation: fadeUp 520ms cubic-bezier(.2,.9,.3,1) forwards;
+    animation-delay: var(--delay, 0ms);
+  }
+
+  /* Accessibility: if user prefers reduced motion, reveal everything immediately */
+  @media (prefers-reduced-motion: reduce) {
+    .buttons-container,
+    .highlight-card {
+      animation: none !important;
+      opacity: 1 !important;
+      transform: none !important;
+    }
+  }
+</style>
+
+<!-- JS (listens for buttons' animationend OR uses computed-duration fallback, then staggers reveals) -->
+<script>
+  (function () {
+    function parseTimeToMs(timeStr) {
+      if (!timeStr) return 0;
+      timeStr = timeStr.trim();
+      if (timeStr.endsWith('ms')) return parseFloat(timeStr);
+      if (timeStr.endsWith('s')) return parseFloat(timeStr) * 1000;
+      return parseFloat(timeStr) || 0;
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const buttons = document.querySelector('.buttons-container');
+      const cards = Array.from(document.querySelectorAll('.highlight-card'));
+
+      if (!buttons || cards.length === 0) return;
+
+      // If user prefers reduced motion, immediately reveal (no waits)
+      if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        cards.forEach((c) => c.classList.add('animate-in'));
+        cards.forEach((c, i) => c.style.setProperty('--delay', `${i * 90}ms`));
+        return;
+      }
+
+      let fired = false;
+
+      function revealCards() {
+        if (fired) return;
+        fired = true;
+        cards.forEach((card, i) => {
+          // set stagger delay per card
+          card.style.setProperty('--delay', `${i * 110}ms`);
+          // tiny tick so CSS var is applied before class toggled
+          setTimeout(() => card.classList.add('animate-in'), 10);
+        });
+      }
+
+      // Prefer listening to the animationend event on the buttons container
+      function onButtonsAnimationEnd(e) {
+        // ensure we react to container's animation (not child's) — target === buttons
+        if (e.target !== buttons) return;
+        revealCards();
+        buttons.removeEventListener('animationend', onButtonsAnimationEnd);
+        clearTimeout(fallbackTimer);
+      }
+
+      buttons.addEventListener('animationend', onButtonsAnimationEnd);
+
+      // Fallback: compute (animation-delay + duration) from computed style and reveal after that + small buffer
+      const cs = getComputedStyle(buttons);
+      const delayStr = (cs.animationDelay || '').split(',')[0];
+      const durStr = (cs.animationDuration || '').split(',')[0];
+      const totalMs = parseTimeToMs(delayStr) + parseTimeToMs(durStr);
+
+      const fallbackTimer = setTimeout(() => {
+        revealCards();
+      }, Math.max(0, totalMs + 40));
+    });
+  })();
+</script>
+
+   
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                    My Professional Arsenal
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    A comprehensive toolkit combining startup insights, AI innovation, customer success mastery, 
+                    and analytical excellence to drive measurable business outcomes
+                </p>
+            </div>
+
+            <!-- Achievement Metrics -->
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <div class="group relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 hover:transform hover:scale-105 border border-gray-100 fade-in" style="animation-delay: 200ms;">
+                    <div class="absolute inset-0 bg-gradient-to-r from-emerald-500 to-teal-500 opacity-0 group-hover:opacity-5 rounded-2xl transition-opacity duration-500"></div>
+                    <div class="relative z-10">
+                        <div class="inline-flex p-3 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 mb-4">
+                            <i data-lucide="trending-up" class="w-6 h-6 text-white"></i>
+                        </div>
+                        <div class="text-3xl font-bold text-gray-900 mb-2">
+                            <span class="counter gradient-text" data-target="45" data-prefix="+" data-suffix="%">+0%</span>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-3">Customer Retention Improvement</h3>
+                        <p class="text-gray-600 leading-relaxed">Enhanced customer success strategies and AI-driven insights</p>
+                    </div>
+                </div>
+
+                <div class="group relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 hover:transform hover:scale-105 border border-gray-100 fade-in" style="animation-delay: 400ms;">
+                    <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-cyan-500 opacity-0 group-hover:opacity-5 rounded-2xl transition-opacity duration-500"></div>
+                    <div class="relative z-10">
+                        <div class="inline-flex p-3 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-500 mb-4">
+                            <i data-lucide="trending-down" class="w-6 h-6 text-white"></i>
+                        </div>
+                        <div class="text-3xl font-bold text-gray-900 mb-2">
+                            <span class="counter gradient-text" data-target="60" data-prefix="-" data-suffix="%">-0%</span>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-3">Time-to-Insight Reduction</h3>
+                        <p class="text-gray-600 leading-relaxed">Streamlined workflows and automated reporting processes</p>
+                    </div>
+                </div>
+
+                <div class="group relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 hover:transform hover:scale-105 border border-gray-100 fade-in" style="animation-delay: 600ms;">
+                    <div class="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 opacity-0 group-hover:opacity-5 rounded-2xl transition-opacity duration-500"></div>
+                    <div class="relative z-10">
+                        <div class="inline-flex p-3 rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 mb-4">
+                            <i data-lucide="zap" class="w-6 h-6 text-white"></i>
+                        </div>
+                        <div class="text-3xl font-bold text-gray-900 mb-2">
+                            <span class="counter gradient-text" data-target="75" data-prefix="+" data-suffix="%">+0%</span>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-3">Startup Growth Acceleration</h3>
+                        <p class="text-gray-600 leading-relaxed">Market research and customer-centric growth strategies</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technical Skills Grid -->
+            <div class="bg-gradient-to-r from-gray-50 to-blue-50 rounded-3xl p-12 mb-16 fade-in" style="animation-delay: 800ms;">
+                <h3 class="text-3xl font-bold text-gray-900 mb-8 text-center">Technical Proficiencies</h3>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="group relative bg-white rounded-xl p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-gray-100">
+                        <div class="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 opacity-0 group-hover:opacity-10 rounded-xl transition-opacity duration-300"></div>
+                        <div class="relative z-10 flex items-center space-x-3">
+                            <div class="p-2 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500">
+                                <i data-lucide="brain" class="w-5 h-5 text-white"></i>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-gray-900">AI Enthusiast</div>
+                                <div class="text-sm text-gray-500">Workflows & Automations</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative bg-white rounded-xl p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-gray-100">
+                        <div class="absolute inset-0 bg-gradient-to-r from-green-500 to-emerald-500 opacity-0 group-hover:opacity-10 rounded-xl transition-opacity duration-300"></div>
+                        <div class="relative z-10 flex items-center space-x-3">
+                            <div class="p-2 rounded-lg bg-gradient-to-r from-green-500 to-emerald-500">
+                                <i data-lucide="database" class="w-5 h-5 text-white"></i>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-gray-900">SQL</div>
+                                <div class="text-sm text-gray-500">Database</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative bg-white rounded-xl p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-gray-100">
+                        <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-cyan-500 opacity-0 group-hover:opacity-10 rounded-xl transition-opacity duration-300"></div>
+                        <div class="relative z-10 flex items-center space-x-3">
+                            <div class="p-2 rounded-lg bg-gradient-to-r from-blue-500 to-cyan-500">
+                                <i data-lucide="bar-chart-3" class="w-5 h-5 text-white"></i>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-gray-900">Tableau</div>
+                                <div class="text-sm text-gray-500">Visualization</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative bg-white rounded-xl p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-gray-100">
+                        <div class="absolute inset-0 bg-gradient-to-r from-yellow-500 to-orange-500 opacity-0 group-hover:opacity-10 rounded-xl transition-opacity duration-300"></div>
+                        <div class="relative z-10 flex items-center space-x-3">
+                            <div class="p-2 rounded-lg bg-gradient-to-r from-yellow-500 to-orange-500">
+                                <i data-lucide="presentation" class="w-5 h-5 text-white"></i>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-gray-900">Power BI</div>
+                                <div class="text-sm text-gray-500">Analytics</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative bg-white rounded-xl p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-gray-100">
+                        <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-indigo-600 opacity-0 group-hover:opacity-10 rounded-xl transition-opacity duration-300"></div>
+                        <div class="relative z-10 flex items-center space-x-3">
+                            <div class="p-2 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600">
+                                <i data-lucide="users" class="w-5 h-5 text-white"></i>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-gray-900">CRM</div>
+                                <div class="text-sm text-gray-500">Salesforce, Zoho</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative bg-white rounded-xl p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-gray-100">
+                        <div class="absolute inset-0 bg-gradient-to-r from-zinc-600 to-gray-800 opacity-0 group-hover:opacity-10 rounded-xl transition-opacity duration-300"></div>
+                        <div class="relative z-10 flex items-center space-x-3">
+                            <div class="p-2 rounded-lg bg-gradient-to-r from-gray-700 to-zinc-900">
+                                <i data-lucide="target" class="w-5 h-5 text-white"></i>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-gray-900">Market Research</div>
+                                <div class="text-sm text-gray-500">Analysis</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative bg-white rounded-xl p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-gray-100">
+                        <div class="absolute inset-0 bg-gradient-to-r from-red-500 to-rose-500 opacity-0 group-hover:opacity-10 rounded-xl transition-opacity duration-300"></div>
+                        <div class="relative z-10 flex items-center space-x-3">
+                            <div class="p-2 rounded-lg bg-gradient-to-r from-red-500 to-rose-500">
+                                <i data-lucide="file-text" class="w-5 h-5 text-white"></i>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-gray-900">Documentation</div>
+                                <div class="text-sm text-gray-500">BRD/FRD</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative bg-white rounded-xl p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-gray-100">
+                        <div class="absolute inset-0 bg-gradient-to-r from-stone-500 to-stone-600 opacity-0 group-hover:opacity-10 rounded-xl transition-opacity duration-300"></div>
+                        <div class="relative z-10 flex items-center space-x-3">
+                            <div class="p-2 rounded-lg bg-gradient-to-r from-stone-500 to-amber-900">
+                                <i data-lucide="workflow" class="w-5 h-5 text-white"></i>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-gray-900">Lean Six Sigma</div>
+                                <div class="text-sm text-gray-500">Process</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Core Competencies -->
+            <div class="grid md:grid-cols-2 gap-12 items-center fade-in" style="animation-delay: 1000ms;">
+                <div>
+                    <h3 class="text-3xl font-bold text-gray-900 mb-6">Core Competencies</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center">
+                                <i data-lucide="rocket" class="w-6 h-6 text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-semibold text-gray-900 mb-2">Startup Ecosystem Expertise</h4>
+                                <p class="text-gray-600">Deep understanding of startup challenges, growth strategies, and scaling operations through data-driven approaches</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-xl flex items-center justify-center">
+                                <i data-lucide="heart" class="w-6 h-6 text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-semibold text-gray-900 mb-2">Customer Success Leadership</h4>
+                                <p class="text-gray-600">Proven track record in building customer success programs that drive retention, expansion, and advocacy</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center">
+                                <i data-lucide="brain" class="w-6 h-6 text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-semibold text-gray-900 mb-2">AI-Driven Innovation</h4>
+                                <p class="text-gray-600">Leveraging artificial intelligence and machine learning to create predictive insights and automate decision-making</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <div class="bg-gradient-to-r from-blue-400 to-blue-700 rounded-3xl p-8 text-white">
+                        <h4 class="text-2xl font-bold mb-4">Ready to Transform Your Business</h4>
+                        <div class="space-y-4">
+                            <div class="flex items-center space-x-3">
+                                <i data-lucide="sparkles" class="w-6 h-6 text-yellow-400"></i>
+                                <span>AI-powered customer insights</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <i data-lucide="lightbulb" class="w-6 h-6 text-yellow-400"></i>
+                                <span>Startup growth methodologies</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <i data-lucide="globe" class="w-6 h-6 text-yellow-400"></i>
+                                <span>Market research & competitive analysis</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <i data-lucide="settings" class="w-6 h-6 text-yellow-400"></i>
+                                <span>Process documentation & optimization</span>
+                            </div>
+                            <div class="flex items-center space-x-3 mt-6">
+                                <span class="text-2xl font-bold">
+                                    <span class="counter" data-target="100" data-suffix="%">0%</span>
+                                </span>
+                                <span>commitment to customer success</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Methodology Section -->
+    <section id="methodology" class="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                    My Strategic Methodology
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    A systematic approach combining startup agility, AI innovation, and customer success 
+                    principles to deliver transformational business outcomes
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <div class="group relative fade-in" style="animation-delay: 200ms;">
+                    <div class="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-700 transform hover:scale-105 border border-gray-100 h-full">
+                        <div class="flex items-center mb-6">
+                            <div class="flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-r from-blue-500 to-cyan-500 mr-4 shadow-lg">
+                                <i data-lucide="search" class="w-8 h-8 text-white"></i>
+                            </div>
+                            <div>
+                                <div class="text-sm font-medium text-gray-500 mb-1">Step 1</div>
+                                <h3 class="text-2xl font-bold text-gray-900">DISCOVER</h3>
+                                <div class="text-sm text-gray-600 font-medium">Research & Analysis</div>
+                            </div>
+                        </div>
+                        
+                        <p class="text-gray-600 mb-6 text-lg leading-relaxed">Deep dive into market research, customer needs, and business objectives</p>
+                        
+                        <ul class="space-y-3">
+                            <li class="flex items-start group">
+                                <div class="w-2 h-2 rounded-full bg-gradient-to-r from-blue-500 to-cyan-500 mt-2 mr-3 group-hover:scale-150 transition-transform duration-300"></div>
+                                <span class="text-gray-700 leading-relaxed">Market research and competitive analysis</span>
+                            </li>
+                            <li class="flex items-start group">
+                                <div class="w-2 h-2 rounded-full bg-gradient-to-r from-blue-500 to-cyan-500 mt-2 mr-3 group-hover:scale-150 transition-transform duration-300"></div>
+                                <span class="text-gray-700 leading-relaxed">Customer journey mapping and persona development</span>
+                            </li>
+                            <li class="flex items-start group">
+                                <div class="w-2 h-2 rounded-full bg-gradient-to-r from-blue-500 to-cyan-500 mt-2 mr-3 group-hover:scale-150 transition-transform duration-300"></div>
+                                <span class="text-gray-700 leading-relaxed">Business requirements documentation (BRD)</span>
+                            </li>
+                            <li class="flex items-start group">
+                                <div class="w-2 h-2 rounded-full bg-gradient-to-r from-blue-500 to-cyan-500 mt-2 mr-3 group-hover:scale-150 transition-transform duration-300"></div>
+                                <span class="text-gray-700 leading-relaxed">Stakeholder interviews and needs assessment</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="group relative fade-in" style="animation-delay: 400ms;">
+                    <div class="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-700 transform hover:scale-105 border border-gray-100 h-full">
+                        <div class="flex items-center mb-6">
+                            <div class="flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-r from-purple-500 to-pink-500 mr-4 shadow-lg">
+                                <i data-lucide="settings" class="w-8 h-8 text-white"></i>
+                            </div>
+                            <div>
+                                <div class="text-sm font-medium text-gray-500 mb-1">Step 2</div>
+                                <h3 class="text-2xl font-bold text-gray-900">DESIGN</h3>
+                                <div class="text-sm text-gray-600 font-medium">Strategy & Planning</div>
+                            </div>
+                        </div>
+                        
+                        <p class="text-gray-600 mb-6 text-lg leading-relaxed">Create comprehensive strategies leveraging AI and customer success principles</p>
+                        
+                        <ul class="space-y-3">
+                            <li class="flex items-start group">
+                                <div class="w-2 h-2 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 mt-2 mr-3 group-hover:scale-150 transition-transform duration-300"></div>
+                                <span class="text-gray-700 leading-relaxed">Functional requirements documentation (FRD)</span>
+                            </li>
+                            <li class="flex items-start group">
+                                <div class="w-2 h-2 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 mt-2 mr-3 group-hover:scale-150 transition-transform duration-300"></div>
+                                <span class="text-gray-700 leading-relaxed">AI/ML model selection and validation</span>
+                            </li>
+                            <li class="flex items-start group">
+                                <div class="w-2 h-2 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 mt-2 mr-3 group-hover:scale-150 transition-transform duration-300"></div>
+                                <span class="text-gray-700 leading-relaxed">Customer success program architecture</span>
+                            </li>
+                            <li class="flex items-start group">
+                                <div class="w-2 h-2 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 mt-2 mr-3 group-hover:scale-150 transition-transform duration-300"></div>
+                                <span class="text-gray-700 leading-relaxed">Workflow design and process optimization</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="group relative fade-in" style="animation-delay: 600ms;">
+                    <div class="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-700 transform hover:scale-105 border border-gray-100 h-full">
+                        <div class="flex items-center mb-6">
+                            <div class="flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-r from-emerald-500 to-teal-500 mr-4 shadow-lg">
+                                <i data-lucide="target" class="w-8 h-8 text-white"></i>
+                            </div>
+                            <div>
+                                <div class="text-sm font-medium text-gray-500 mb-1">Step 3</div>
+                                <h3 class="text-2xl font-bold text-gray-900">DELIVER</h3>
+                                <div class="text-sm text-gray-600 font-medium">Implementation & Growth</div>
+                            </div>
+                        </div>
+                        
+                        <p class="text-gray-600 mb-6 text-lg leading-relaxed">Execute solutions with measurable outcomes and continuous optimization</p>
+                        
+                        <ul class="space-y-3">
+                            <li class="flex items-start group">
+                                <div class="w-2 h-2 rounded-full bg-gradient-to-r from-emerald-500 to-teal-500 mt-2 mr-3 group-hover:scale-150 transition-transform duration-300"></div>
+                                <span class="text-gray-700 leading-relaxed">Salesforce CRM implementation and customization</span>
+                            </li>
+                            <li class="flex items-start group">
+                                <div class="w-2 h-2 rounded-full bg-gradient-to-r from-emerald-500 to-teal-500 mt-2 mr-3 group-hover:scale-150 transition-transform duration-300"></div>
+                                <span class="text-gray-700 leading-relaxed">AI-powered analytics dashboard deployment</span>
+                            </li>
+                            <li class="flex items-start group">
+                                <div class="w-2 h-2 rounded-full bg-gradient-to-r from-emerald-500 to-teal-500 mt-2 mr-3 group-hover:scale-150 transition-transform duration-300"></div>
+                                <span class="text-gray-700 leading-relaxed">Customer success metrics tracking</span>
+                            </li>
+                            <li class="flex items-start group">
+                                <div class="w-2 h-2 rounded-full bg-gradient-to-r from-emerald-500 to-teal-500 mt-2 mr-3 group-hover:scale-150 transition-transform duration-300"></div>
+                                <span class="text-gray-700 leading-relaxed">Continuous improvement and scaling strategies</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        
+            <!-- Framework Summary -->
+            <div class="bg-white rounded-3xl p-12 shadow-2xl border border-gray-100 fade-in" style="animation-delay: 1200ms;">
+                <div class="text-center">
+                    <h3 class="text-3xl font-bold text-gray-900 mb-6">Integrated Framework</h3>
+                    <p class="text-lg text-gray-600 max-w-4xl mx-auto mb-8">
+                        My methodology combines proven frameworks with innovative approaches to ensure 
+                        scalable, sustainable, and measurable business transformation.
+                    </p>
+                    <div class="flex flex-wrap justify-center gap-4">
+                        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium">Startup Growth Hacking</span>
+                        <span class="bg-emerald-100 text-emerald-800 px-4 py-2 rounded-full font-medium">Customer-Centric Design</span>
+                        <span class="bg-purple-100 text-purple-800 px-4 py-2 rounded-full font-medium">AI-First Analytics</span>
+                        <span class="bg-orange-100 text-orange-800 px-4 py-2 rounded-full font-medium">Agile Documentation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section id="impact" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                    Transformational Impact Areas
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Delivering measurable outcomes across critical business functions through innovative 
+                    strategies, customer-centric approaches, and cutting-edge AI technologies
+                </p>
+            </div>
+
+            <!-- Impact Areas Grid -->
+            
+
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+                <div class="group bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-blue-100 fade-in" style="animation-delay: 100ms;">
+                    <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <i data-lucide="rocket" class="w-8 h-8 text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Startup Growth</h3>
+                    <p class="text-gray-600 mb-4">Accelerated growth through market research, customer success, and AI-driven insights</p>
+                    <ul class="text-sm text-gray-600 space-y-2">
+                        <li class="flex items-start">
+                            <span class="w-1 h-1 bg-gray-400 rounded-full mt-2 mr-2 flex-shrink-0"></span>
+                            Go-to-market strategies
+                        </li>
+                        <li class="flex items-start">
+                            <span class="w-1 h-1 bg-gray-400 rounded-full mt-2 mr-2 flex-shrink-0"></span>
+                            Product-market fit validation
+                        </li>
+                        <li class="flex items-start">
+                            <span class="w-1 h-1 bg-gray-400 rounded-full mt-2 mr-2 flex-shrink-0"></span>
+                            Growth hacking methodologies
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="group bg-gradient-to-br from-violet-50 to-violet-90 rounded-2xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-emerald-100 fade-in" style="animation-delay: 200ms;">
+                    <div class="w-16 h-16 bg-gradient-to-r from-red-400 to-red-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <i data-lucide="heart" class="w-8 h-8 text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Customer Success</h3>
+                    <p class="text-gray-600 mb-4">Enhanced customer relationships through strategic success programs and predictive analytics</p>
+                    <ul class="text-sm text-gray-600 space-y-2">
+                        <li class="flex items-start">
+                            <span class="w-1 h-1 bg-gray-400 rounded-full mt-2 mr-2 flex-shrink-0"></span>
+                            Customer health scoring
+                        </li>
+                        <li class="flex items-start">
+                            <span class="w-1 h-1 bg-gray-400 rounded-full mt-2 mr-2 flex-shrink-0"></span>
+                            Retention optimization
+                        </li>
+                        <li class="flex items-start">
+                            <span class="w-1 h-1 bg-gray-400 rounded-full mt-2 mr-2 flex-shrink-0"></span>
+                            Success program design
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="group bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-purple-100 fade-in" style="animation-delay: 300ms;">
+                    <div class="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <i data-lucide="brain" class="w-8 h-8 text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">AI Innovation</h3>
+                    <p class="text-gray-600 mb-4">Revolutionary insights through machine learning, predictive modeling, and intelligent automation</p>
+                    <ul class="text-sm text-gray-600 space-y-2">
+                        <li class="flex items-start">
+                            <span class="w-1 h-1 bg-gray-400 rounded-full mt-2 mr-2 flex-shrink-0"></span>
+                            Predictive analytics models
+                        </li>
+                        <li class="flex items-start">
+                            <span class="w-1 h-1 bg-gray-400 rounded-full mt-2 mr-2 flex-shrink-0"></span>
+                            Automated decision systems
+                        </li>
+                        <li class="flex items-start">
+                            <span class="w-1 h-1 bg-gray-400 rounded-full mt-2 mr-2 flex-shrink-0"></span>
+                            Intelligent workflows
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="group bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-amber-100 fade-in" style="animation-delay: 400ms;">
+                    <div class="w-16 h-16 bg-gradient-to-r from-amber-500 to-orange-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <i data-lucide="target" class="w-8 h-8 text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Market Intelligence</h3>
+                    <p class="text-gray-600 mb-4">Strategic market research and competitive analysis for informed decision-making</p>
+                    <ul class="text-sm text-gray-600 space-y-2">
+                        <li class="flex items-start">
+                            <span class="w-1 h-1 bg-gray-400 rounded-full mt-2 mr-2 flex-shrink-0"></span>
+                            Competitive intelligence
+                        </li>
+                        <li class="flex items-start">
+                            <span class="w-1 h-1 bg-gray-400 rounded-full mt-2 mr-2 flex-shrink-0"></span>
+                            Market opportunity analysis
+                        </li>
+                        <li class="flex items-start">
+                            <span class="w-1 h-1 bg-gray-400 rounded-full mt-2 mr-2 flex-shrink-0"></span>
+                            Customer behavior insights
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Success Metrics -->
+            <div class="bg-gradient-to-r from-slate-50 to-blue-50 rounded-3xl p-12 mb-16 fade-in" style="animation-delay: 600ms;">
+                <h3 class="text-3xl font-bold text-gray-900 mb-8 text-center">Proven Results</h3>
+                <div class="grid md:grid-cols-4 gap-8">
+                    <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-gray-100 text-center">
+                        <div class="flex justify-center mb-4">
+                            <div class="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center">
+                                <i data-lucide="heart" class="w-6 h-6 text-emerald-600"></i>
+                            </div>
+                        </div>
+                        <div class="text-2xl font-bold text-emerald-600 mb-2">95%</div>
+                        <div class="text-sm text-gray-600 font-medium">Customer Retention Rate</div>
+                    </div>
+                    <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-gray-100 text-center">
+                        <div class="flex justify-center mb-4">
+                            <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center">
+                                <i data-lucide="rocket" class="w-6 h-6 text-blue-600"></i>
+                            </div>
+                        </div>
+                        <div class="text-2xl font-bold text-blue-600 mb-2">-50%</div>
+                        <div class="text-sm text-gray-600 font-medium">Time to Market</div>
+                    </div>
+                    <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-gray-100 text-center">
+                        <div class="flex justify-center mb-4">
+                            <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center">
+                                <i data-lucide="dollar-sign" class="w-6 h-6 text-purple-600"></i>
+                            </div>
+                        </div>
+                        <div class="text-2xl font-bold text-purple-600 mb-2">+80%</div>
+                        <div class="text-sm text-gray-600 font-medium">Revenue Growth</div>
+                    </div>
+                    <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-gray-100 text-center">
+                        <div class="flex justify-center mb-4">
+                            <div class="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center">
+                                <i data-lucide="settings" class="w-6 h-6 text-orange-600"></i>
+                            </div>
+                        </div>
+                        <div class="text-2xl font-bold text-orange-600 mb-2">+65%</div>
+                        <div class="text-sm text-gray-600 font-medium">Process Efficiency</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Excellence Framework -->
+            <div class="bg-gradient-to-r from-gray-900 to-blue-900 rounded-3xl p-12 text-white fade-in" style="animation-delay: 800ms;">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-3xl font-bold mb-6 flex items-center">
+                            <i data-lucide="sparkles" class="w-8 h-8 mr-3 text-yellow-400"></i>
+                            Excellence Framework
+                        </h3>
+                        <p class="text-lg mb-8 text-gray-300">
+                            A comprehensive approach that ensures quality, reliability, and measurable impact 
+                            across all customer success, AI, and startup growth initiatives.
+                        </p>
+                        <div class="space-y-4">
+                            <div class="flex items-center space-x-3">
+                                <i data-lucide="check-circle" class="w-6 h-6 text-emerald-400"></i>
+                                <span>Data-driven customer success programs</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <i data-lucide="check-circle" class="w-6 h-6 text-emerald-400"></i>
+                                <span>AI-powered predictive analytics and insights</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <i data-lucide="check-circle" class="w-6 h-6 text-emerald-400"></i>
+                                <span>Startup-focused growth strategies and execution</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <i data-lucide="check-circle" class="w-6 h-6 text-emerald-400"></i>
+                                <span>Comprehensive documentation and process optimization</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="relative">
+                        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20">
+                            <h4 class="text-xl font-bold mb-4 flex items-center">
+                                <i data-lucide="globe" class="w-6 h-6 mr-2 text-blue-400"></i>
+                                Impact Measurement
+                            </h4>
+                            <p class="text-gray-300 mb-6">
+                                Every initiative includes comprehensive KPIs, success metrics, and ROI tracking 
+                                to ensure continuous improvement and demonstrable value creation.
+                            </p>
+                            <div class="space-y-3">
+                                <div class="flex items-center justify-between">
+                                    <span class="text-sm text-gray-300">Customer Satisfaction</span>
+                                    <span class="text-emerald-400 font-bold">98%</span>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <span class="text-sm text-gray-300">Project Success Rate</span>
+                                    <span class="text-emerald-400 font-bold">100%</span>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <span class="text-sm text-gray-300">Time to Value</span>
+                                    <span class="text-emerald-400 font-bold">-40%</span>
+                                </div>
+                            </div>
+                            <div class="bg-emerald-400/20 text-emerald-400 px-4 py-3 rounded-lg text-center font-bold mt-6">
+                                <i data-lucide="zap" class="w-5 h-5 inline mr-2"></i>
+                                Transformational Business Value
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Section -->
+    <section id="value" class="py-20 bg-gradient-to-br from-blue-900 via-purple-900 to-emerald-900 text-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                    Why Me???
+                </h2>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                    A unique combination of startup agility, customer success expertise, AI innovation, 
+                    and analytical excellence that drives exceptional business outcomes
+                </p>
+            </div>
+
+            <!-- Value Propositions -->
+           
+            <!-- Unique Differentiators -->
+            <div class="grid md:grid-cols-2 gap-16 items-center mb-16">
+                <div class="fade-in" style="animation-delay: 800ms;">
+                    <h3 class="text-3xl font-bold mb-8 flex items-center">
+                        <i data-lucide="shield" class="w-8 h-8 mr-3 text-blue-400"></i>
+                        Unique Differentiators
+                    </h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="sparkles" class="w-6 h-6 text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-semibold mb-2">Cross-Functional Expertise</h4>
+                                <p class="text-gray-300">Unique blend of technical skills, business acumen, and customer-centric thinking</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-xl flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="trending-up" class="w-6 h-6 text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-semibold mb-2">Startup Ecosystem Knowledge</h4>
+                                <p class="text-gray-300">Deep understanding of startup challenges, funding cycles, and scaling strategies</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="brain" class="w-6 h-6 text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-semibold mb-2">AI-First Mindset</h4>
+                                <p class="text-gray-300">Leveraging cutting-edge AI technologies to solve complex business challenges</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fade-in" style="animation-delay: 1000ms;">
+                    <div class="bg-white/10 backdrop-blur-lg rounded-3xl p-8 border border-white/20">
+                        <h3 class="text-2xl font-bold mb-6 flex items-center">
+                            <i data-lucide="users" class="w-8 h-8 mr-3 text-emerald-400"></i>
+                            Collaborative Partnership
+                        </h3>
+                        <p class="text-gray-300 mb-6">
+                            I believe in building strong partnerships with clients, working as an extension 
+                            of your team to achieve shared goals and drive sustainable growth.
+                        </p>
+                        
+                        <div class="grid grid-cols-2 gap-4 mb-6">
+                            <div class="text-center">
+                                <div class="text-2xl font-bold text-emerald-400">100%</div>
+                                <div class="text-sm text-gray-400">Client Satisfaction</div>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-2xl font-bold text-emerald-400">24/7</div>
+                                <div class="text-sm text-gray-400">Commitment</div>
+                            </div>
+                        </div>
+
+                        <div class="space-y-3">
+                            <div class="flex items-center space-x-3">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-emerald-400"></i>
+                                <span class="text-sm">Transparent communication and regular updates</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-emerald-400"></i>
+                                <span class="text-sm">Flexible engagement models and timelines</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-emerald-400"></i>
+                                <span class="text-sm">Focus on knowledge transfer and team empowerment</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Professional Excellence Commitment -->
+            <div class="bg-white/10 backdrop-blur-lg rounded-3xl p-12 border border-white/20 fade-in" style="animation-delay: 1200ms;">
+                <h3 class="text-3xl font-bold mb-8 text-center flex items-center justify-center">
+                    <i data-lucide="zap" class="w-8 h-8 mr-3 text-yellow-400"></i>
+                    Professional Excellence Commitment
+                </h3>
+                
+                <div class="grid md:grid-cols-4 gap-8 mb-8">
+                    <div class="text-center group hover:transform hover:scale-105 transition-all duration-300">
+                        <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:shadow-lg transition-shadow duration-300">
+                            <i data-lucide="brain" class="w-8 h-8"></i>
+                        </div>
+                        <div class="font-bold text-lg">Continuous Learning</div>
+                    </div>
+                    <div class="text-center group hover:transform hover:scale-105 transition-all duration-300">
+                        <div class="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:shadow-lg transition-shadow duration-300">
+                            <i data-lucide="target" class="w-8 h-8"></i>
+                        </div>
+                        <div class="font-bold text-lg">Results-Driven</div>
+                    </div>
+                    <div class="text-center group hover:transform hover:scale-105 transition-all duration-300">
+                        <div class="w-16 h-16 bg-purple-100 text-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:shadow-lg transition-shadow duration-300">
+                            <i data-lucide="lightbulb" class="w-8 h-8"></i>
+                        </div>
+                        <div class="font-bold text-lg">Innovation Focus</div>
+                    </div>
+                    <div class="text-center group hover:transform hover:scale-105 transition-all duration-300">
+                        <div class="w-16 h-16 bg-orange-100 text-orange-600 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:shadow-lg transition-shadow duration-300">
+                            <i data-lucide="globe" class="w-8 h-8"></i>
+                        </div>
+                        <div class="font-bold text-lg">Strategic Mindset</div>
+                    </div>
+                </div>
+                
+                <div class="text-center">
+                    <p class="text-lg text-gray-300 mb-8 max-w-4xl mx-auto">
+                        I am committed to delivering exceptional value through innovative solutions, customer-centric strategies, 
+                        and strategic partnerships that drive measurable business transformation and sustainable growth.
+                    </p>
+                    
+                    <a 
+                        href="https://drive.google.com/file/d/1uRKq0ZBmFvonrYHmF61wBY1swb--UVEE/view?usp=sharing" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        class="group inline-flex items-center bg-gradient-to-r from-emerald-500 to-teal-500 text-white px-12 py-4 rounded-xl font-bold text-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+                    >
+                        <i data-lucide="download" class="mr-3 w-5 h-5"></i>
+                        Download Resume
+                        
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+<footer id="animated-footer" class="bg-gray-900 text-white py-4 fixed bottom-0 left-0 w-full translate-y-full transition-transform duration-500 ease-out">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <p class="text-gray-300 text-base font-semibold">
+      Transforming insights into strategies, startups into success stories, and customers into connections...
+    </p>
+  </div>
+</footer>
+
+<script>
+  let lastScrollY = window.scrollY;
+
+  window.addEventListener("scroll", () => {
+    const footer = document.getElementById("animated-footer");
+    const triggerPoint = window.innerHeight; // homepage height
+    const currentScroll = window.scrollY;
+
+    if (currentScroll > triggerPoint && currentScroll > lastScrollY) {
+      // Scrolling DOWN past homepage → show footer
+      footer.classList.remove("translate-y-full");
+      footer.classList.add("translate-y-0");
+    } else {
+      // Scrolling UP or not past homepage → hide footer
+      footer.classList.remove("translate-y-0");
+      footer.classList.add("translate-y-full");
+    }
+
+    lastScrollY = currentScroll;
+  });
+</script>
+
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Smooth scrolling function
+        function scrollToSection(sectionId) {
+            const element = document.getElementById(sectionId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        let isMobileMenuOpen = false;
+
+        mobileMenuBtn.addEventListener('click', () => {
+            isMobileMenuOpen = !isMobileMenuOpen;
+            if (isMobileMenuOpen) {
+                mobileMenu.classList.remove('hidden');
+                mobileMenuBtn.innerHTML = '<i data-lucide="x" class="w-6 h-6"></i>';
+            } else {
+                mobileMenu.classList.add('hidden');
+                mobileMenuBtn.innerHTML = '<i data-lucide="menu" class="w-6 h-6"></i>';
+            }
+            lucide.createIcons();
+        });
+
+        // Close mobile menu when clicking on links
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                mobileMenuBtn.innerHTML = '<i data-lucide="menu" class="w-6 h-6"></i>';
+                isMobileMenuOpen = false;
+                lucide.createIcons();
+            });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Navbar background on scroll
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('bg-white/90', 'backdrop-blur-lg', 'shadow-lg');
+            } else {
+                navbar.classList.remove('bg-white/90', 'backdrop-blur-lg', 'shadow-lg');
+            }
+        });
+
+        // Intersection Observer for fade-in animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const element = entry.target;
+                    const delay = element.style.animationDelay || '0ms';
+                    const delayMs = parseInt(delay) || 0;
+                    
+                    setTimeout(() => {
+                        element.classList.add('visible');
+                    }, delayMs);
+                }
+            });
+        }, observerOptions);
+
+        // Observe all fade-in elements
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Animated counter function
+        function animateCounter(element) {
+            const target = parseInt(element.dataset.target);
+            const prefix = element.dataset.prefix || '';
+            const suffix = element.dataset.suffix || '';
+            const duration = 2000;
+            const startTime = performance.now();
+
+            function updateCounter(currentTime) {
+                const elapsed = currentTime - startTime;
+                const progress = Math.min(elapsed / duration, 1);
+                const current = Math.floor(progress * target);
+                
+                element.textContent = `${prefix}${current}${suffix}`;
+                
+                if (progress < 1) {
+                    requestAnimationFrame(updateCounter);
+                }
+            }
+
+            requestAnimationFrame(updateCounter);
+        }
+
+        // Initialize counters when they become visible
+        const counterObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateCounter(entry.target);
+                    counterObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        document.querySelectorAll('.counter').forEach(counter => {
+            counterObserver.observe(counter);
+        });
+
+        // Add hover effects for interactive elements
+        document.querySelectorAll('.hover-scale').forEach(element => {
+            element.addEventListener('mouseenter', () => {
+                element.style.transform = 'scale(1.02)';
+            });
+            
+            element.addEventListener('mouseleave', () => {
+                element.style.transform = 'scale(1)';
+            });
+        });
+    </script>
+</body>
+</html>
